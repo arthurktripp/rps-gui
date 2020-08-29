@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+
+<body>
+<div id="wrapper">
+    <div id="title">
+        <h1>ROCK // PAPER // SCISSORS</h1>
+        <h3>(first to five)</h3>
+        </div>
+
+    <div id="start">
+        <button id="startBtn">START</button>
+        
+    </div>
+    
+    <div id="instruction">
+        <h2>CHOOSE YOUR WEAPON</h2>
+    </div>
+    <div id="player-choice">
+        <button class="weapon" data-weap="rock">ROCK</button>
+        <button class="weapon" data-weap="paper">PAPER</button>
+        <button class="weapon" data-weap="scissors">SCISSORS</button>
+    </div>
+
+    <div id="plays">
+        <div id="player-played" class="play-box">
+            <p>PLAYER</p><br>
+            <p id="player-chose" class="choice">PRESS START</p><br>
+            <p>YOUR SCORE:</p>
+            <p id="player-score">0</p>
+        </div>
+        
+        <div id="computer-played" class="play-box">
+            <p>COMPUTER</p><br>
+            <p id="computer-chose" class="choice">PRESS START</p><br>
+            <p>COMP SCORE:</p>
+            <p id="computer-score">0</p>
+            </div>
+    </div>
+
+        <div>
+            <h2 id="notify">A little game by Arthur Tripp</h3>
+        </div>
+
+
+
+    <div id="reset">
+        <button id="reset-button">RESET</button>
+    </div>
+
+</div>
+<script type="text/javascript" src="jsfile.js"></script>
+</body>
+</html>
